@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+.logo{
+    margin: 100px 0;
+    text-align: center;
+}
+.logoC{
+    margin: 0 auto;
+    width: 35%;
+}
+
+.title{
+    font-family: serif;
+    font-size: 50px;
+    color: #E1001A;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.countryshap{
+    position: relative;
+}
+
+.t-header{
+
+    position: absolute;
+    top: 190px;
+    right: 20%;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.categorie{
+    padding: 0 30px;
+    margin: 20px 0;
+}
+
+.box{
+    width: 200px;
+    height: 66px;
+    background-color: #1D2242;
+}
+.t-categorie{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 28px;
+    padding-top: 14px;
+}
+.economy{
+    color: #FEA61F;
+    border-bottom: 6px solid #FEA61F;
+
+    
+}
+.politics{
+    color: #FD6362;
+    border-bottom: 6px solid #FD6362;
+}
+
+.health{
+    color: #22E3D2;
+    border-bottom: 6px solid #22E3D2;
+}
+.social{
+    color: #34FF6B;
+    border-bottom: 6px solid #34FF6B;
+}
+
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+.text-title{
+    width: 50%;
+    font-size: 20px;
+    font-family: serif;
+}
+.text-content{
+    width: 48%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #1D2242;
+    line-height: 18px;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #E1001A;
+    padding: 6px 40px;
+    border-style: none;
+    border-radius: 50px ;
+}
+a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    
+}
+
